@@ -7,7 +7,7 @@ var width = screen.width;
             link.id   = cssId;
             link.rel  = 'stylesheet';
             link.type = 'text/css';
-            if(width < 1260){
+            if(width < 1260 && width > 480){
                 link.href = 'cocktaillaptop.css';
             } else if(width < 480) {
                 link.href = 'cocktailmobile.css';
