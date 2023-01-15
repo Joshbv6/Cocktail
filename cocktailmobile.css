@@ -490,6 +490,7 @@ body {
     align-items: center;
     background: #000;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 .glow-on-hover {
